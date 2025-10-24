@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>NIDS Dashboard</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Roboto', sans-serif; background: #f8f9fa; margin: 20px; }
+.card { border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px; }
+.counter-card { text-align:center; padding:15px; color:white; font-weight:700; font-size:1.2rem; border-radius:10px; }
+.bg-purple { background:#6f42c1; }
+.table-responsive { max-height:400px; overflow-y:auto; }
+table th, table td { vertical-align: middle !important; }
+tr.norm { background:#eaffea; }
+tr.dos { background:#fff2a8; }
+tr.portscan { background:#ffdede; }
+tr.malware { background:#ffb3ff; }
+tr:hover { background:#d3e0ff !important; }
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<h1 class="mb-4">NIDS Dashboard - Multi-Class</h1>
+
+<!-- Counters -->
+<div class="row mb-4">
+  <div class="col-md-3"><div class="counter-card bg-success">Normal: {{counts.Normal}}</div></div>
+  <div class="col-md-3"><div class="counter-card bg-warning">DoS: {{counts.DoS}}</div></div>
+  <div class="col-md-3"><div class="counter-card bg-danger">Port Scan: {{counts["Port Scan"]}}</div></div>
+  <div class="col-md-3"><div class="counter-card bg-purple">Malware: {{counts.Malware}}</div></div>
+</div>
+
+<!-- Charts -->
+<div class="row">
+  <div class="col-lg-6 mb-4">
+    <div class="card p-3"><h5>Packet Type Distribution</h5><div id="pie" style="height:350px;"></div></div>
+  </div>
+  <div class="col-lg-6 mb-4">
+    <div class="card p-3"><h5>Protocol vs Packet Type</h5><div id="bar" style="height:350px;"></div></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6 mb-4">
+    <div class="card p-3"><h5>Top Talkers (Source IP)</h5><div id="top_talkers" style="height:350px;"></div></div>
+  </div>
+  <div class="col-lg-6 mb-4">
+    <div class="card p-3"><h5>Malicious Packets Trend</h5><div id="trend" style="height:350px;"></div></div>
+  </div>
+</div>
+
+<!-- Table -->
+<div class="row">
+  <div class="col-12">
+    <div class="card p-3">
+      <h5>Packet Details</h5>
+      <div class="table-responsive">
+      <table class="table table-bordered table-hover">
+      <thead class="table-light">
+      <tr><th>#</th><th>Src IP</th><th>Dst IP</th><th>Protocol</th><th>Length</th><th>Large Packet</th><th>Same Subnet</th><th>Port Flag</th><th>Prediction</th></tr>
+      </thead>
+      <tbody>
+      {% for r in rows %}
+      <tr class="{% if r.prediction=='DoS' %}dos{% elif r.prediction=='Port Scan' %}portscan{% elif r.prediction=='Malware' %}malware{% else %}norm{% endif %}">
+      <td>{{loop.index}}</td>
+      <td>{{r.src_ip}}</td>
+      <td>{{r.dst_ip}}</td>
+      <td>{{r.protocol}}</td>
+      <td>{{r.length}}</td>
+      <td>{{r.is_large_packet}}</td>
+      <td>{{r.src_dst_same_subnet}}</td>
+      <td>{{r.port_range_flag}}</td>
+      <td>{{r.prediction}}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+      </table>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+// Plotly charts
+var pie_data = [{
+  values: [{{counts.Normal}}, {{counts.DoS}}, {{counts["Port Scan"]}}, {{counts.Malware}}],
+  labels: ['Normal','DoS','Port Scan','Malware'],
+  type: 'pie',
+  marker: {colors:['#28a745','#ffc107','#dc3545','#6f42c1']}
+}];
+Plotly.newPlot('pie', pie_data, {margin:{t:40}});
+
+var bar_data = [
+{% for proto in protocols %}
+  {
+    x: ['Normal','DoS','Port Scan','Malware'],
+    y: [{{protocol_counts[proto]['Normal']}}, {{protocol_counts[proto]['DoS']}}, {{protocol_counts[proto]['Port Scan']}}, {{protocol_counts[proto]['Malware']}}],
+    name: '{{proto}}',
+    type: 'bar'
+  },
+{% endfor %}
+];
+Plotly.newPlot('bar', bar_data, {barmode:'stack', margin:{t:40}});
+
+var top_data = [{
+  x: [{% for ip in top_talkers.keys() %}'{{ip}}',{% endfor %}],
+  y: [{% for ip,count in top_talkers.items() %}{{count}},{% endfor %}],
+  type:'bar',
+  marker: {color:'#fd7e14'}
+}];
+Plotly.newPlot('top_talkers', top_data, {margin:{t:40}});
+
+var trend_data = [{
+  x: [{% for b in trend_batches %}{{b}},{% endfor %}],
+  y: [{% for m in trend_counts %}{{m}},{% endfor %}],
+  type:'scatter',
+  mode:'lines+markers',
+  line:{color:'#dc3545'}
+}];
+Plotly.newPlot('trend', trend_data, {margin:{t:40}});
+</script>
+</body>
+</html>

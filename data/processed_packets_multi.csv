@@ -1,0 +1,601 @@
+src_ip,dst_ip,length,src_port,dst_port,label,is_large_packet,src_dst_same_subnet,port_range_flag,protocol_1,protocol_6,protocol_17,length_category_Small,length_category_Medium,length_category_Large
+192.168.1.74,10.0.0.174,602,8781,8376,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.143,10.0.0.67,1362,47623,42697,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.7,10.0.0.223,207,19880,32705,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.108,10.0.0.149,476,12388,22244,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.14,10.0.0.143,1273,23954,61767,Port Scan,1,0,0,False,False,True,False,False,True
+192.168.1.42,10.0.0.200,760,40647,14351,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.41,10.0.0.65,617,47787,1531,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.64,10.0.0.144,942,39844,60252,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.242,10.0.0.132,897,31059,52338,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.230,10.0.0.143,1159,41526,59166,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.135,10.0.0.222,135,58747,25239,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.132,10.0.0.160,921,14965,60879,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.82,10.0.0.39,286,31409,53448,Malware,0,0,0,True,False,False,True,False,False
+192.168.1.126,10.0.0.82,1131,11453,12119,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.52,10.0.0.228,481,3702,46197,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.172,10.0.0.191,857,27659,46335,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.21,10.0.0.77,88,42735,38527,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.187,10.0.0.249,1271,11340,48378,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.199,10.0.0.35,1326,33931,31993,Malware,1,0,0,False,True,False,False,False,True
+192.168.1.97,10.0.0.75,1007,56268,49244,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.115,10.0.0.24,533,32461,9850,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.163,10.0.0.25,808,28315,48671,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.31,10.0.0.235,362,29835,45679,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.84,10.0.0.164,1028,1814,4931,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.191,10.0.0.84,1445,64057,63818,Malware,1,0,0,False,False,True,False,False,True
+192.168.1.246,10.0.0.17,1160,26271,56936,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.178,10.0.0.192,516,47299,42630,Port Scan,0,0,0,True,False,False,False,True,False
+192.168.1.74,10.0.0.23,371,9621,47660,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.97,10.0.0.189,800,12462,12490,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.111,10.0.0.192,1397,61614,44788,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.81,10.0.0.233,119,37726,55256,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.128,10.0.0.68,981,21379,57801,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.87,10.0.0.121,494,1808,4739,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.4,10.0.0.203,1282,29065,29631,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.37,10.0.0.233,1354,60850,32744,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.38,10.0.0.79,1353,40659,19547,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.139,10.0.0.50,338,27305,37521,Port Scan,0,0,0,False,False,True,True,False,False
+192.168.1.130,10.0.0.144,878,9447,2782,DoS,0,0,0,False,False,True,False,True,False
+192.168.1.62,10.0.0.60,635,59538,64880,DoS,0,0,0,False,True,False,False,True,False
+192.168.1.61,10.0.0.235,1332,17154,29825,Malware,1,0,0,False,True,False,False,False,True
+192.168.1.237,10.0.0.250,689,51925,10498,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.156,10.0.0.152,700,23366,31449,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.79,10.0.0.81,1189,40079,58220,Port Scan,0,0,0,False,True,False,False,False,True
+192.168.1.159,10.0.0.19,761,29163,13157,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.3,10.0.0.189,1012,17124,27547,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.176,10.0.0.77,122,5261,56455,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.119,10.0.0.119,1393,46463,23958,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.181,10.0.0.233,273,48809,20353,Malware,0,0,0,False,False,True,True,False,False
+192.168.1.23,10.0.0.156,733,27376,19751,Malware,0,0,0,True,False,False,False,True,False
+192.168.1.224,10.0.0.136,951,13164,44772,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.173,10.0.0.102,755,22363,36843,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.39,10.0.0.75,730,6351,63173,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.227,10.0.0.91,1095,56660,20677,Port Scan,0,0,0,False,True,False,False,False,True
+192.168.1.192,10.0.0.28,981,32259,2900,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.45,10.0.0.23,1017,38164,28298,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.244,10.0.0.29,1240,50920,39139,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.172,10.0.0.37,1067,54240,22010,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.216,10.0.0.65,804,50613,56554,Port Scan,0,0,0,False,True,False,False,True,False
+192.168.1.181,10.0.0.133,1063,47832,37875,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.151,10.0.0.104,103,55841,804,Normal,0,0,1,False,False,True,True,False,False
+192.168.1.90,10.0.0.109,1444,56869,22340,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.232,10.0.0.38,770,52144,37275,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.35,10.0.0.42,657,49525,28892,Malware,0,0,0,False,False,True,False,True,False
+192.168.1.92,10.0.0.180,1304,57696,49027,Port Scan,1,0,0,True,False,False,False,False,True
+192.168.1.179,10.0.0.241,1392,48050,57304,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.161,10.0.0.192,72,28227,31214,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.106,10.0.0.98,1406,9668,34061,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.196,10.0.0.141,188,18192,30696,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.21,10.0.0.74,792,51616,14335,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.50,10.0.0.31,439,60310,19025,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.16,10.0.0.18,793,19486,59157,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.213,10.0.0.51,962,12148,64936,DoS,0,0,0,True,False,False,False,True,False
+192.168.1.98,10.0.0.18,427,63645,21977,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.94,10.0.0.213,348,51005,51688,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.106,10.0.0.131,996,6774,32861,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.70,10.0.0.143,302,65207,43870,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.109,10.0.0.127,80,35649,56009,DoS,0,0,0,False,False,True,True,False,False
+192.168.1.42,10.0.0.180,1065,7518,34119,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.113,10.0.0.151,873,46490,32530,Malware,0,0,0,False,True,False,False,True,False
+192.168.1.217,10.0.0.146,458,47330,61689,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.71,10.0.0.33,795,10672,33268,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.197,10.0.0.69,437,34108,41690,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.155,10.0.0.29,846,31992,7913,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.34,10.0.0.116,142,47861,6953,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.102,10.0.0.110,1132,34100,36783,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.91,10.0.0.192,71,6671,33285,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.103,10.0.0.91,787,29836,44243,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.125,10.0.0.126,729,43282,23651,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.94,10.0.0.47,352,10641,10201,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.184,10.0.0.143,601,56308,40598,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.131,10.0.0.98,1340,1500,31449,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.67,10.0.0.178,170,51871,61402,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.204,10.0.0.2,1107,11865,21512,DoS,0,0,0,True,False,False,False,False,True
+192.168.1.239,10.0.0.61,729,29191,3548,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.218,10.0.0.147,480,26278,55166,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.129,10.0.0.161,1438,13613,15916,Malware,1,0,0,True,False,False,False,False,True
+192.168.1.125,10.0.0.77,1390,31488,12007,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.55,10.0.0.131,1394,19081,17216,DoS,1,0,0,False,False,True,False,False,True
+192.168.1.227,10.0.0.212,555,54815,25179,Malware,0,0,0,False,False,True,False,True,False
+192.168.1.246,10.0.0.106,1279,7761,23141,Malware,1,0,0,False,False,True,False,False,True
+192.168.1.165,10.0.0.62,1281,63044,1162,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.226,10.0.0.34,918,50959,57874,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.5,10.0.0.99,1494,8942,43853,DoS,1,0,0,False,True,False,False,False,True
+192.168.1.109,10.0.0.155,749,16843,7565,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.25,10.0.0.156,643,24319,7159,Port Scan,0,0,0,False,False,True,False,True,False
+192.168.1.11,10.0.0.10,699,43539,20164,Port Scan,0,0,0,True,False,False,False,True,False
+192.168.1.215,10.0.0.243,1068,28224,62842,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.118,10.0.0.40,587,10636,23305,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.172,10.0.0.223,315,46239,41939,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.141,10.0.0.249,1340,62236,50645,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.231,10.0.0.246,443,56859,15379,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.140,10.0.0.142,1169,29391,1110,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.41,10.0.0.173,1365,36336,64823,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.237,10.0.0.234,108,61400,49769,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.122,10.0.0.217,1205,53869,21483,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.142,10.0.0.207,167,29630,6180,DoS,0,0,0,True,False,False,True,False,False
+192.168.1.41,10.0.0.51,177,64690,957,Normal,0,0,1,False,False,True,True,False,False
+192.168.1.25,10.0.0.16,277,91,13241,Normal,0,0,1,False,True,False,True,False,False
+192.168.1.95,10.0.0.209,1111,53525,12056,Malware,0,0,0,False,True,False,False,False,True
+192.168.1.213,10.0.0.17,1081,18264,2320,DoS,0,0,0,False,False,True,False,False,True
+192.168.1.29,10.0.0.103,442,62837,9705,Malware,0,0,0,False,False,True,True,False,False
+192.168.1.124,10.0.0.21,1191,58752,38965,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.210,10.0.0.146,656,64015,13110,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.22,10.0.0.73,838,47637,42880,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.63,10.0.0.21,571,60361,23709,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.157,10.0.0.105,1086,8924,55624,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.29,10.0.0.180,892,23915,35563,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.56,10.0.0.97,1404,4181,63239,Malware,1,0,0,True,False,False,False,False,True
+192.168.1.89,10.0.0.244,112,5312,27487,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.33,10.0.0.218,1298,25828,4848,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.47,10.0.0.181,1275,44493,15379,DoS,1,0,0,False,False,True,False,False,True
+192.168.1.127,10.0.0.57,345,43050,53654,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.90,10.0.0.167,1282,17378,37615,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.28,10.0.0.8,1261,45391,49162,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.12,10.0.0.147,271,11744,46744,Port Scan,0,0,0,False,False,True,True,False,False
+192.168.1.212,10.0.0.92,123,19132,30355,Malware,0,0,0,False,True,False,True,False,False
+192.168.1.180,10.0.0.99,788,14736,47454,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.115,10.0.0.157,1491,23613,35593,DoS,1,0,0,False,True,False,False,False,True
+192.168.1.151,10.0.0.225,687,57237,38501,DoS,0,0,0,False,True,False,False,True,False
+192.168.1.40,10.0.0.189,417,16124,46551,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.207,10.0.0.131,1491,16588,62131,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.29,10.0.0.92,145,20774,12268,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.195,10.0.0.233,1156,2659,18092,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.191,10.0.0.134,399,37328,8814,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.211,10.0.0.210,1195,51799,30343,DoS,0,0,0,False,True,False,False,False,True
+192.168.1.215,10.0.0.120,536,54716,26906,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.48,10.0.0.80,1452,6148,18636,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.238,10.0.0.222,303,13527,23273,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.9,10.0.0.176,404,18390,48087,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.143,10.0.0.154,502,7390,30545,Malware,0,0,0,False,True,False,False,True,False
+192.168.1.24,10.0.0.52,156,30055,20661,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.60,10.0.0.250,1272,11161,35591,Malware,1,0,0,True,False,False,False,False,True
+192.168.1.149,10.0.0.213,802,37677,8388,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.35,10.0.0.220,87,54070,12188,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.220,10.0.0.124,1111,13752,35746,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.92,10.0.0.47,433,63302,33742,Port Scan,0,0,0,True,False,False,True,False,False
+192.168.1.100,10.0.0.51,442,45980,40177,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.179,10.0.0.103,106,6956,64603,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.71,10.0.0.68,133,19782,60209,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.145,10.0.0.166,1033,20564,60601,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.114,10.0.0.67,995,14167,58096,Malware,0,0,0,False,True,False,False,True,False
+192.168.1.237,10.0.0.61,281,46520,32889,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.125,10.0.0.157,450,9168,27874,DoS,0,0,0,True,False,False,True,False,False
+192.168.1.152,10.0.0.41,610,24731,929,Normal,0,0,1,False,True,False,False,True,False
+192.168.1.69,10.0.0.240,753,30350,7320,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.204,10.0.0.73,276,43210,15744,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.189,10.0.0.230,515,37549,26177,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.91,10.0.0.182,157,52590,38512,Port Scan,0,0,0,False,True,False,True,False,False
+192.168.1.93,10.0.0.189,787,18860,52167,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.8,10.0.0.64,99,54699,3866,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.91,10.0.0.79,965,47407,31603,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.237,10.0.0.88,1019,42523,9339,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.237,10.0.0.227,1315,46526,53307,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.185,10.0.0.79,1408,14201,37806,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.12,10.0.0.92,1399,39241,18176,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.12,10.0.0.237,1101,58456,21418,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.100,10.0.0.95,607,17216,31225,Malware,0,0,0,False,True,False,False,True,False
+192.168.1.130,10.0.0.233,477,60698,33244,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.77,10.0.0.54,183,61099,52557,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.174,10.0.0.4,720,34123,35752,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.9,10.0.0.230,1096,40852,61001,Malware,0,0,0,True,False,False,False,False,True
+192.168.1.75,10.0.0.104,959,49739,9746,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.140,10.0.0.134,693,26047,7552,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.72,10.0.0.123,1485,42833,59765,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.34,10.0.0.222,68,25525,26429,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.165,10.0.0.206,1088,46137,23535,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.47,10.0.0.58,84,28816,10707,DoS,0,0,0,False,True,False,True,False,False
+192.168.1.16,10.0.0.169,709,3780,7619,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.236,10.0.0.7,543,43223,61454,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.105,10.0.0.8,228,42004,25777,DoS,0,0,0,False,False,True,True,False,False
+192.168.1.44,10.0.0.111,735,26678,52518,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.245,10.0.0.221,635,55230,43664,Port Scan,0,0,0,True,False,False,False,True,False
+192.168.1.182,10.0.0.28,811,53278,8463,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.220,10.0.0.249,1168,48412,43096,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.15,10.0.0.46,544,12252,26097,Malware,0,0,0,False,False,True,False,True,False
+192.168.1.165,10.0.0.242,398,51713,28322,Port Scan,0,0,0,True,False,False,True,False,False
+192.168.1.112,10.0.0.227,961,11985,55126,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.120,10.0.0.80,673,47497,40978,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.7,10.0.0.222,618,33976,39327,DoS,0,0,0,True,False,False,False,True,False
+192.168.1.84,10.0.0.94,1445,64205,13156,Port Scan,1,0,0,True,False,False,False,False,True
+192.168.1.226,10.0.0.63,639,30990,42033,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.171,10.0.0.199,818,5171,37047,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.86,10.0.0.44,1386,27217,24280,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.154,10.0.0.75,817,46653,56261,Port Scan,0,0,0,False,False,True,False,True,False
+192.168.1.238,10.0.0.17,673,62403,38918,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.225,10.0.0.119,334,33013,4848,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.171,10.0.0.201,1438,60859,14967,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.41,10.0.0.231,843,45643,36676,Port Scan,0,0,0,True,False,False,False,True,False
+192.168.1.200,10.0.0.145,1018,60213,3573,Port Scan,0,0,0,True,False,False,False,False,True
+192.168.1.41,10.0.0.43,447,36189,33076,Port Scan,0,0,0,False,False,True,True,False,False
+192.168.1.158,10.0.0.142,1124,29526,47851,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.167,10.0.0.209,1171,61813,6335,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.159,10.0.0.107,1149,15062,21915,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.128,10.0.0.106,506,57858,25026,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.55,10.0.0.234,1425,64040,24298,Malware,1,0,0,False,False,True,False,False,True
+192.168.1.70,10.0.0.149,527,55146,55860,DoS,0,0,0,False,False,True,False,True,False
+192.168.1.46,10.0.0.52,1189,15588,52059,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.73,10.0.0.240,1434,30914,51060,DoS,1,0,0,True,False,False,False,False,True
+192.168.1.138,10.0.0.72,1186,993,4124,Normal,0,0,1,False,True,False,False,False,True
+192.168.1.47,10.0.0.232,570,26551,37380,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.191,10.0.0.103,1029,33112,40820,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.38,10.0.0.183,72,53769,48152,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.72,10.0.0.83,794,34148,10373,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.101,10.0.0.131,589,59657,33747,DoS,0,0,0,True,False,False,False,True,False
+192.168.1.162,10.0.0.83,960,47072,48334,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.10,10.0.0.250,1432,14573,64456,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.164,10.0.0.181,350,9427,16393,Port Scan,0,0,0,False,False,True,True,False,False
+192.168.1.246,10.0.0.85,483,32999,46432,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.154,10.0.0.163,894,11679,47117,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.135,10.0.0.144,1036,63756,22255,Port Scan,0,0,0,False,False,True,False,False,True
+192.168.1.42,10.0.0.7,806,8965,1217,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.220,10.0.0.102,1482,47798,5071,Port Scan,1,0,0,False,False,True,False,False,True
+192.168.1.106,10.0.0.239,1373,30229,42391,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.124,10.0.0.202,785,19557,25881,Port Scan,0,0,0,False,False,True,False,True,False
+192.168.1.192,10.0.0.36,1268,38882,22086,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.244,10.0.0.171,1472,32116,61129,DoS,1,0,0,True,False,False,False,False,True
+192.168.1.186,10.0.0.202,1088,59947,46487,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.221,10.0.0.9,350,32328,54425,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.96,10.0.0.23,228,19226,3865,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.236,10.0.0.142,345,22465,57262,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.78,10.0.0.231,207,44794,179,Port Scan,0,0,1,False,True,False,True,False,False
+192.168.1.197,10.0.0.202,728,60314,1337,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.71,10.0.0.4,921,59026,184,Port Scan,0,0,1,True,False,False,False,True,False
+192.168.1.41,10.0.0.208,240,52606,48361,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.9,10.0.0.51,942,27725,20399,Malware,0,0,0,False,False,True,False,True,False
+192.168.1.43,10.0.0.246,934,56754,21227,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.109,10.0.0.110,1365,26702,25026,Malware,1,0,0,False,True,False,False,False,True
+192.168.1.30,10.0.0.147,305,28748,55935,Malware,0,0,0,True,False,False,True,False,False
+192.168.1.64,10.0.0.224,97,45184,58080,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.202,10.0.0.39,1316,2377,41527,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.63,10.0.0.130,154,52742,27084,Malware,0,0,0,False,False,True,True,False,False
+192.168.1.81,10.0.0.151,1209,39789,28471,DoS,1,0,0,True,False,False,False,False,True
+192.168.1.196,10.0.0.3,1045,41147,50442,Malware,0,0,0,False,True,False,False,False,True
+192.168.1.11,10.0.0.127,612,10850,12043,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.234,10.0.0.151,343,63865,18133,Port Scan,0,0,0,False,True,False,True,False,False
+192.168.1.22,10.0.0.226,925,49794,50123,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.223,10.0.0.150,1274,45335,44812,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.182,10.0.0.104,970,64457,34994,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.118,10.0.0.24,411,56734,24535,DoS,0,0,0,False,True,False,True,False,False
+192.168.1.182,10.0.0.100,623,20494,14236,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.189,10.0.0.192,450,9797,52661,Port Scan,0,0,0,True,False,False,True,False,False
+192.168.1.110,10.0.0.22,458,42345,27530,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.11,10.0.0.63,273,26234,3729,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.139,10.0.0.163,464,45855,23675,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.158,10.0.0.153,1487,63177,6367,DoS,1,0,0,True,False,False,False,False,True
+192.168.1.149,10.0.0.249,288,22299,51813,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.140,10.0.0.89,1498,58597,45792,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.38,10.0.0.219,999,7734,34750,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.64,10.0.0.83,534,65517,9779,Port Scan,0,0,0,False,False,True,False,True,False
+192.168.1.155,10.0.0.18,281,53723,25788,Malware,0,0,0,True,False,False,True,False,False
+192.168.1.68,10.0.0.171,1079,46983,57412,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.175,10.0.0.219,1158,22619,50074,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.227,10.0.0.7,851,10409,24047,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.189,10.0.0.236,998,45255,2352,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.9,10.0.0.93,1155,59986,16880,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.202,10.0.0.7,919,63396,21990,Port Scan,0,0,0,False,True,False,False,True,False
+192.168.1.41,10.0.0.105,1208,38266,13290,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.15,10.0.0.28,286,466,43163,Port Scan,0,0,1,False,False,True,True,False,False
+192.168.1.17,10.0.0.240,1323,17639,62977,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.226,10.0.0.71,491,58457,36514,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.61,10.0.0.175,1240,18533,49648,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.194,10.0.0.77,889,63904,42211,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.125,10.0.0.205,1296,59022,56921,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.206,10.0.0.202,1029,9274,28952,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.24,10.0.0.129,918,23609,17521,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.235,10.0.0.9,321,8551,45241,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.33,10.0.0.230,1037,36876,37802,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.208,10.0.0.104,1174,5013,54548,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.176,10.0.0.212,303,27514,55993,DoS,0,0,0,False,False,True,True,False,False
+192.168.1.136,10.0.0.104,243,11582,51945,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.39,10.0.0.18,925,58031,20347,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.122,10.0.0.23,339,39049,64529,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.64,10.0.0.201,67,45135,57657,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.83,10.0.0.128,78,56424,54085,Port Scan,0,0,0,False,False,True,True,False,False
+192.168.1.236,10.0.0.142,185,32059,19502,DoS,0,0,0,False,True,False,True,False,False
+192.168.1.3,10.0.0.146,1194,47289,20567,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.36,10.0.0.201,420,35493,9575,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.53,10.0.0.5,308,36181,61926,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.191,10.0.0.124,317,29212,24659,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.57,10.0.0.228,1003,22302,9349,DoS,0,0,0,True,False,False,False,False,True
+192.168.1.102,10.0.0.163,214,40240,2797,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.214,10.0.0.30,614,51342,26890,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.111,10.0.0.91,264,35649,25676,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.235,10.0.0.89,1395,4127,7840,Port Scan,1,0,0,False,True,False,False,False,True
+192.168.1.96,10.0.0.89,1402,62039,35666,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.192,10.0.0.191,533,59851,7404,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.27,10.0.0.128,506,58336,57999,DoS,0,0,0,False,True,False,False,True,False
+192.168.1.45,10.0.0.27,1429,39767,47187,Port Scan,1,0,0,False,False,True,False,False,True
+192.168.1.79,10.0.0.228,1007,54734,20615,Malware,0,0,0,False,False,True,False,False,True
+192.168.1.72,10.0.0.158,1100,35509,6822,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.201,10.0.0.77,1162,10430,7115,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.71,10.0.0.57,947,37487,54097,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.224,10.0.0.215,762,40000,56836,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.10,10.0.0.29,1394,25759,44088,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.116,10.0.0.82,386,26951,9723,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.212,10.0.0.159,1335,30651,44291,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.49,10.0.0.37,185,23452,46823,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.68,10.0.0.28,693,61632,19709,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.9,10.0.0.222,105,39372,15905,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.118,10.0.0.181,115,54075,4738,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.66,10.0.0.203,85,52450,4019,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.185,10.0.0.49,1334,28545,51868,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.89,10.0.0.4,277,39606,57904,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.191,10.0.0.219,1322,18801,49924,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.185,10.0.0.152,405,60785,49446,DoS,0,0,0,False,True,False,True,False,False
+192.168.1.83,10.0.0.200,178,28591,22224,Malware,0,0,0,True,False,False,True,False,False
+192.168.1.135,10.0.0.205,96,43579,30427,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.123,10.0.0.99,251,4203,413,Normal,0,0,1,False,True,False,True,False,False
+192.168.1.186,10.0.0.206,985,25338,40505,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.54,10.0.0.53,321,22066,54705,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.103,10.0.0.6,1314,34274,9067,Port Scan,1,0,0,False,False,True,False,False,True
+192.168.1.63,10.0.0.84,778,12986,17650,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.236,10.0.0.192,143,23372,43834,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.124,10.0.0.147,1395,61113,6521,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.62,10.0.0.125,111,35970,40607,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.188,10.0.0.203,280,58433,31045,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.221,10.0.0.120,835,16089,51415,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.206,10.0.0.41,934,55089,11627,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.195,10.0.0.104,723,25349,58294,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.160,10.0.0.16,249,64629,47861,Malware,0,0,0,True,False,False,True,False,False
+192.168.1.198,10.0.0.175,1385,34223,28812,DoS,1,0,0,False,True,False,False,False,True
+192.168.1.29,10.0.0.179,1186,56116,28345,Port Scan,0,0,0,True,False,False,False,False,True
+192.168.1.91,10.0.0.11,534,25503,26022,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.205,10.0.0.108,403,24328,28028,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.191,10.0.0.204,230,12778,23122,Port Scan,0,0,0,False,False,True,True,False,False
+192.168.1.178,10.0.0.208,371,24817,27727,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.71,10.0.0.250,727,14881,45134,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.60,10.0.0.158,690,43171,184,Normal,0,0,1,True,False,False,False,True,False
+192.168.1.108,10.0.0.212,898,36858,54662,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.157,10.0.0.9,931,3313,46633,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.49,10.0.0.96,454,20680,22978,Port Scan,0,0,0,False,True,False,True,False,False
+192.168.1.178,10.0.0.138,359,36187,37193,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.9,10.0.0.172,806,63931,63993,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.91,10.0.0.6,621,62851,44756,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.225,10.0.0.132,196,56744,9237,Malware,0,0,0,False,False,True,True,False,False
+192.168.1.137,10.0.0.232,1467,43164,10848,DoS,1,0,0,False,True,False,False,False,True
+192.168.1.115,10.0.0.198,813,64471,48627,Malware,0,0,0,False,True,False,False,True,False
+192.168.1.106,10.0.0.35,1208,45365,5441,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.46,10.0.0.167,577,26914,11403,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.31,10.0.0.119,572,61220,25620,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.157,10.0.0.41,223,34720,11889,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.94,10.0.0.92,1422,27611,51944,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.46,10.0.0.103,1495,36461,22448,DoS,1,0,0,False,False,True,False,False,True
+192.168.1.205,10.0.0.6,410,48064,44154,Malware,0,0,0,True,False,False,True,False,False
+192.168.1.37,10.0.0.54,316,43541,7799,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.124,10.0.0.21,1034,42983,63113,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.222,10.0.0.126,1010,58786,35523,Port Scan,0,0,0,False,True,False,False,False,True
+192.168.1.84,10.0.0.56,810,19044,54501,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.112,10.0.0.243,847,30420,9090,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.234,10.0.0.247,617,3114,40267,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.144,10.0.0.176,518,58346,49772,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.211,10.0.0.82,121,49263,41278,Port Scan,0,0,0,True,False,False,True,False,False
+192.168.1.190,10.0.0.175,687,11943,45710,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.43,10.0.0.93,467,20823,39038,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.209,10.0.0.245,756,61412,39147,DoS,0,0,0,True,False,False,False,True,False
+192.168.1.143,10.0.0.141,156,289,53648,DoS,0,0,1,False,True,False,True,False,False
+192.168.1.202,10.0.0.233,629,16536,26671,Malware,0,0,0,False,False,True,False,True,False
+192.168.1.189,10.0.0.217,523,64616,36335,Port Scan,0,0,0,False,False,True,False,True,False
+192.168.1.174,10.0.0.249,1240,26576,14475,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.227,10.0.0.154,994,45,39132,Port Scan,0,0,1,True,False,False,False,True,False
+192.168.1.46,10.0.0.183,79,26004,17637,Port Scan,0,0,0,False,True,False,True,False,False
+192.168.1.241,10.0.0.194,943,12763,9676,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.10,10.0.0.230,468,3287,186,DoS,0,0,1,True,False,False,True,False,False
+192.168.1.186,10.0.0.75,1305,6379,7166,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.141,10.0.0.196,1422,64480,40775,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.238,10.0.0.178,1472,62302,44192,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.61,10.0.0.111,1322,26400,28470,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.164,10.0.0.17,890,56062,35042,DoS,0,0,0,False,False,True,False,True,False
+192.168.1.143,10.0.0.96,672,12857,54308,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.241,10.0.0.203,1259,11248,40362,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.114,10.0.0.60,1489,34144,31555,DoS,1,0,0,False,True,False,False,False,True
+192.168.1.66,10.0.0.120,513,38186,29492,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.148,10.0.0.31,105,12080,22490,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.147,10.0.0.118,734,23819,36491,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.156,10.0.0.139,726,42087,43079,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.239,10.0.0.199,126,25983,57704,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.11,10.0.0.21,1084,4105,64584,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.18,10.0.0.122,1352,44698,57745,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.97,10.0.0.65,988,4921,8140,Malware,0,0,0,True,False,False,False,True,False
+192.168.1.126,10.0.0.72,1263,36802,19287,Port Scan,1,0,0,True,False,False,False,False,True
+192.168.1.220,10.0.0.62,578,15585,44515,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.65,10.0.0.40,1468,46948,33940,DoS,1,0,0,False,True,False,False,False,True
+192.168.1.192,10.0.0.239,1382,46143,28257,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.26,10.0.0.169,1254,34441,19099,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.77,10.0.0.245,1414,17301,3708,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.105,10.0.0.68,864,23068,23814,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.50,10.0.0.5,509,19740,26050,Malware,0,0,0,True,False,False,False,True,False
+192.168.1.6,10.0.0.197,787,37089,32397,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.40,10.0.0.207,862,22031,53079,Malware,0,0,0,False,True,False,False,True,False
+192.168.1.103,10.0.0.196,792,57229,2810,Port Scan,0,0,0,False,False,True,False,True,False
+192.168.1.154,10.0.0.89,1322,65352,13568,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.222,10.0.0.20,745,46971,17046,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.2,10.0.0.132,335,21571,17651,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.64,10.0.0.175,678,9024,32560,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.176,10.0.0.19,565,32410,40091,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.50,10.0.0.27,68,4692,5527,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.62,10.0.0.209,1029,50288,15888,DoS,0,0,0,False,False,True,False,False,True
+192.168.1.172,10.0.0.233,869,14899,44264,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.134,10.0.0.241,903,39416,37735,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.130,10.0.0.38,1361,41428,60380,Malware,1,0,0,False,True,False,False,False,True
+192.168.1.87,10.0.0.176,372,28454,47130,Port Scan,0,0,0,False,True,False,True,False,False
+192.168.1.236,10.0.0.3,142,41483,53674,DoS,0,0,0,False,True,False,True,False,False
+192.168.1.205,10.0.0.59,1136,45219,15793,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.61,10.0.0.109,787,49206,61066,DoS,0,0,0,False,True,False,False,True,False
+192.168.1.191,10.0.0.160,836,19955,61315,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.115,10.0.0.33,85,65398,17193,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.209,10.0.0.208,84,59247,18127,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.241,10.0.0.58,325,56410,36735,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.153,10.0.0.76,1017,35241,26713,DoS,0,0,0,True,False,False,False,False,True
+192.168.1.118,10.0.0.108,1181,64557,32677,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.227,10.0.0.29,503,39366,1260,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.23,10.0.0.250,918,46425,55702,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.201,10.0.0.107,964,36530,24417,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.11,10.0.0.157,113,45166,48378,Port Scan,0,0,0,False,False,True,True,False,False
+192.168.1.98,10.0.0.248,970,61446,4112,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.64,10.0.0.193,338,45805,47450,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.95,10.0.0.121,72,36179,34978,Port Scan,0,0,0,False,False,True,True,False,False
+192.168.1.211,10.0.0.89,1281,12584,50109,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.224,10.0.0.107,250,20648,47792,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.163,10.0.0.68,326,61192,23754,DoS,0,0,0,False,False,True,True,False,False
+192.168.1.168,10.0.0.168,876,56154,48604,Port Scan,0,0,0,True,False,False,False,True,False
+192.168.1.175,10.0.0.177,427,14898,27887,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.54,10.0.0.248,1460,53694,32645,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.26,10.0.0.231,751,44130,41539,DoS,0,0,0,False,True,False,False,True,False
+192.168.1.143,10.0.0.103,1468,27646,37230,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.250,10.0.0.211,1458,52562,52080,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.18,10.0.0.4,546,39668,37044,Malware,0,0,0,True,False,False,False,True,False
+192.168.1.168,10.0.0.30,1359,20555,4983,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.81,10.0.0.186,1025,17818,34301,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.42,10.0.0.57,1284,65220,32646,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.156,10.0.0.8,141,1997,57894,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.132,10.0.0.144,849,62369,40142,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.61,10.0.0.95,513,2561,34237,Port Scan,0,0,0,False,True,False,False,True,False
+192.168.1.228,10.0.0.249,188,12088,14031,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.45,10.0.0.120,1364,52941,27292,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.170,10.0.0.162,572,34214,63328,Port Scan,0,0,0,False,False,True,False,True,False
+192.168.1.173,10.0.0.44,1306,36450,23131,DoS,1,0,0,False,True,False,False,False,True
+192.168.1.212,10.0.0.56,1498,19139,11656,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.84,10.0.0.223,1454,31160,5725,Malware,1,0,0,False,False,True,False,False,True
+192.168.1.17,10.0.0.11,704,60386,47488,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.209,10.0.0.98,120,33504,39667,Malware,0,0,0,False,False,True,True,False,False
+192.168.1.103,10.0.0.149,641,20021,16112,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.101,10.0.0.38,599,2088,41395,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.51,10.0.0.76,1177,44806,31569,Malware,0,0,0,False,True,False,False,False,True
+192.168.1.107,10.0.0.178,1288,49047,31197,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.147,10.0.0.131,316,21884,11460,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.59,10.0.0.80,614,45323,11619,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.216,10.0.0.68,919,39999,14799,Malware,0,0,0,False,True,False,False,True,False
+192.168.1.142,10.0.0.71,296,36595,28711,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.124,10.0.0.68,109,31352,34082,Malware,0,0,0,False,False,True,True,False,False
+192.168.1.168,10.0.0.49,262,2661,15536,Port Scan,0,0,0,True,False,False,True,False,False
+192.168.1.171,10.0.0.109,1013,6315,14603,DoS,0,0,0,True,False,False,False,False,True
+192.168.1.113,10.0.0.135,320,45915,12806,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.188,10.0.0.60,641,4937,45268,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.93,10.0.0.112,1166,54833,44767,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.208,10.0.0.220,174,65110,46109,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.210,10.0.0.86,948,14674,32712,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.194,10.0.0.244,1097,13440,14476,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.153,10.0.0.105,284,1401,9254,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.94,10.0.0.158,968,28937,26464,Port Scan,0,0,0,False,True,False,False,True,False
+192.168.1.179,10.0.0.203,939,32101,46327,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.51,10.0.0.226,1068,50677,22778,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.173,10.0.0.146,1216,38219,45075,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.52,10.0.0.204,527,27503,20725,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.241,10.0.0.176,174,2750,8801,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.239,10.0.0.219,915,3432,7038,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.222,10.0.0.202,1381,46838,29239,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.143,10.0.0.174,1401,51432,16998,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.107,10.0.0.147,1103,43415,45615,DoS,0,0,0,False,False,True,False,False,True
+192.168.1.239,10.0.0.148,1401,3634,14691,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.145,10.0.0.240,66,149,26589,Normal,0,0,1,True,False,False,True,False,False
+192.168.1.22,10.0.0.14,1324,60516,47421,Port Scan,1,0,0,False,True,False,False,False,True
+192.168.1.209,10.0.0.188,512,37782,32050,DoS,0,0,0,True,False,False,False,True,False
+192.168.1.245,10.0.0.242,962,58881,52714,DoS,0,0,0,False,True,False,False,True,False
+192.168.1.231,10.0.0.246,870,58482,27120,Malware,0,0,0,True,False,False,False,True,False
+192.168.1.204,10.0.0.8,211,31543,54793,Malware,0,0,0,False,False,True,True,False,False
+192.168.1.85,10.0.0.73,233,43887,42611,DoS,0,0,0,False,True,False,True,False,False
+192.168.1.18,10.0.0.60,891,53916,36864,Port Scan,0,0,0,False,True,False,False,True,False
+192.168.1.219,10.0.0.61,1389,37317,59170,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.130,10.0.0.221,641,5874,55323,Malware,0,0,0,False,False,True,False,True,False
+192.168.1.210,10.0.0.173,813,65240,30841,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.28,10.0.0.166,325,49401,4168,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.233,10.0.0.4,261,31243,55928,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.242,10.0.0.197,851,30230,51314,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.194,10.0.0.198,720,389,21115,Normal,0,0,1,False,True,False,False,True,False
+192.168.1.187,10.0.0.39,266,10197,47233,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.55,10.0.0.168,1324,6256,26052,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.232,10.0.0.14,481,37928,38954,Port Scan,0,0,0,True,False,False,True,False,False
+192.168.1.26,10.0.0.22,118,45433,51940,Port Scan,0,0,0,False,False,True,True,False,False
+192.168.1.162,10.0.0.28,627,6389,60963,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.225,10.0.0.206,666,59696,54766,Malware,0,0,0,False,False,True,False,True,False
+192.168.1.29,10.0.0.112,863,56011,43386,Port Scan,0,0,0,False,True,False,False,True,False
+192.168.1.83,10.0.0.21,71,6221,6362,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.72,10.0.0.34,426,62515,24821,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.108,10.0.0.99,680,65130,38108,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.174,10.0.0.121,750,9335,58900,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.189,10.0.0.225,905,2248,61088,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.47,10.0.0.43,1229,7077,10197,Port Scan,1,0,0,True,False,False,False,False,True
+192.168.1.155,10.0.0.78,668,45649,24401,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.37,10.0.0.86,1213,45328,2719,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.84,10.0.0.236,735,56002,41606,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.59,10.0.0.160,209,20321,46721,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.14,10.0.0.24,1489,48240,47074,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.137,10.0.0.160,478,35044,62973,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.164,10.0.0.130,1260,18319,60590,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.156,10.0.0.176,1443,59833,2144,Malware,1,0,0,False,False,True,False,False,True
+192.168.1.137,10.0.0.120,162,30606,29973,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.194,10.0.0.231,452,46036,14814,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.24,10.0.0.228,1111,61322,62405,Normal,0,0,0,False,False,True,False,False,True
+192.168.1.14,10.0.0.24,310,14191,52664,Malware,0,0,0,False,False,True,True,False,False
+192.168.1.193,10.0.0.14,1023,10961,5828,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.207,10.0.0.101,335,21982,36984,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.120,10.0.0.148,428,51627,52655,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.48,10.0.0.113,1297,25733,37850,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.245,10.0.0.245,1228,31102,12833,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.53,10.0.0.160,276,7072,21573,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.116,10.0.0.220,98,25751,7043,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.134,10.0.0.83,67,47825,62330,Malware,0,0,0,True,False,False,True,False,False
+192.168.1.171,10.0.0.230,1407,11684,52454,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.5,10.0.0.117,1096,14128,689,Port Scan,0,0,1,True,False,False,False,False,True
+192.168.1.163,10.0.0.72,1468,49148,5100,Malware,1,0,0,False,False,True,False,False,True
+192.168.1.27,10.0.0.186,911,30073,57357,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.46,10.0.0.39,118,48058,58004,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.165,10.0.0.78,1376,48036,61529,Port Scan,1,0,0,False,True,False,False,False,True
+192.168.1.244,10.0.0.23,688,52619,55075,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.30,10.0.0.218,559,26766,20224,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.207,10.0.0.194,1330,32993,23298,DoS,1,0,0,False,False,True,False,False,True
+192.168.1.46,10.0.0.192,1293,6,11573,Normal,1,0,1,True,False,False,False,False,True
+192.168.1.84,10.0.0.65,702,7889,38218,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.198,10.0.0.233,749,65271,45076,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.2,10.0.0.153,288,46352,6699,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.230,10.0.0.112,1247,28885,30225,Malware,1,0,0,True,False,False,False,False,True
+192.168.1.105,10.0.0.86,620,50153,12653,Port Scan,0,0,0,False,True,False,False,True,False
+192.168.1.138,10.0.0.3,529,60192,5282,Malware,0,0,0,False,True,False,False,True,False
+192.168.1.24,10.0.0.237,1441,53119,60901,Port Scan,1,0,0,True,False,False,False,False,True
+192.168.1.227,10.0.0.187,978,14192,736,Port Scan,0,0,1,False,False,True,False,True,False
+192.168.1.219,10.0.0.237,805,48910,53374,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.161,10.0.0.210,269,496,49205,Malware,0,0,1,False,False,True,True,False,False
+192.168.1.113,10.0.0.36,1066,2925,4870,Port Scan,0,0,0,True,False,False,False,False,True
+192.168.1.30,10.0.0.219,607,11895,7783,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.204,10.0.0.57,127,887,21969,Normal,0,0,1,True,False,False,True,False,False
+192.168.1.51,10.0.0.52,569,55517,43443,Normal,0,0,0,True,False,False,False,True,False
+192.168.1.81,10.0.0.249,1166,6124,53335,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.248,10.0.0.31,1137,44145,17376,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.121,10.0.0.207,1487,766,62125,Port Scan,1,0,1,True,False,False,False,False,True
+192.168.1.86,10.0.0.128,1095,56099,9305,Malware,0,0,0,True,False,False,False,False,True
+192.168.1.158,10.0.0.5,63,11554,12716,Port Scan,0,0,0,True,False,False,True,False,False
+192.168.1.101,10.0.0.199,792,3118,12318,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.31,10.0.0.174,307,27761,14086,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.94,10.0.0.170,436,28980,4786,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.124,10.0.0.16,376,57589,45345,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.226,10.0.0.16,1204,27277,28388,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.134,10.0.0.128,191,36327,34913,Normal,0,0,0,False,True,False,True,False,False
+192.168.1.185,10.0.0.249,694,34752,23858,DoS,0,0,0,False,False,True,False,True,False
+192.168.1.44,10.0.0.23,1451,15849,64024,Normal,1,0,0,False,True,False,False,False,True
+192.168.1.94,10.0.0.41,567,4711,19902,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.126,10.0.0.97,961,11783,18477,Port Scan,0,0,0,False,True,False,False,True,False
+192.168.1.78,10.0.0.204,643,12952,16971,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.93,10.0.0.160,990,24021,44471,DoS,0,0,0,False,True,False,False,True,False
+192.168.1.101,10.0.0.202,301,24402,7608,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.120,10.0.0.41,1468,17671,64426,Port Scan,1,0,0,False,True,False,False,False,True
+192.168.1.46,10.0.0.213,268,25126,47899,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.211,10.0.0.34,445,42486,24806,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.116,10.0.0.189,702,62458,15969,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.150,10.0.0.186,91,14412,31319,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.114,10.0.0.181,1391,31943,6975,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.132,10.0.0.23,1133,55321,53319,Normal,0,0,0,True,False,False,False,False,True
+192.168.1.87,10.0.0.143,1434,42871,64251,Normal,1,0,0,True,False,False,False,False,True
+192.168.1.77,10.0.0.133,830,7535,60611,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.119,10.0.0.23,709,28674,28475,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.5,10.0.0.49,888,63238,20729,Normal,0,0,0,False,False,True,False,True,False
+192.168.1.43,10.0.0.229,1007,28656,52489,Normal,0,0,0,False,True,False,False,False,True
+192.168.1.4,10.0.0.169,300,64984,6053,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.143,10.0.0.118,943,2113,23005,DoS,0,0,0,False,True,False,False,True,False
+192.168.1.67,10.0.0.38,284,14065,37982,Normal,0,0,0,True,False,False,True,False,False
+192.168.1.42,10.0.0.37,681,25394,19292,Port Scan,0,0,0,True,False,False,False,True,False
+192.168.1.107,10.0.0.57,1436,63203,62312,Normal,1,0,0,False,False,True,False,False,True
+192.168.1.208,10.0.0.183,840,56288,61916,Normal,0,0,0,False,True,False,False,True,False
+192.168.1.187,10.0.0.17,174,25288,37151,Normal,0,0,0,False,False,True,True,False,False
+192.168.1.143,10.0.0.35,458,26014,63258,DoS,0,0,0,True,False,False,True,False,False
